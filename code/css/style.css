@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .texteffects
+    {
+        text-shadow: 2px 2px 3px blue;
+    }
+    .neela
+    
+    .run
+    {
+       height: 10px; 
+       width: 100%;
+       position: relative;
+    }
+    .run img{
+        height: 105px;
+        width: 120px;
+       position: absolute;
+       left:15; top: -5px;
+       animation-name: Rakas;
+       animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition-delay: 2s;
+    }
+    @keyframes Rakas{
+    from {left: -65px;}
+    to {left: 100%}
+}
+.runs img{
+    height: 105px;
+    width: 120px;
+   position: absolute;
+   left: 15; top: -5px;
+   animation-name: Raka;
+   animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes Raka{
+from {left: -65px;}
+to {left: 100%}
+}
